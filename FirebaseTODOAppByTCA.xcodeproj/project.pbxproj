@@ -14,6 +14,7 @@
 		88A553522AB832F300B32F46 /* FirebaseTODOAppByTCATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A553512AB832F300B32F46 /* FirebaseTODOAppByTCATests.swift */; };
 		88A5535C2AB832F300B32F46 /* FirebaseTODOAppByTCAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A5535B2AB832F300B32F46 /* FirebaseTODOAppByTCAUITests.swift */; };
 		88A5535E2AB832F300B32F46 /* FirebaseTODOAppByTCAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A5535D2AB832F300B32F46 /* FirebaseTODOAppByTCAUITestsLaunchTests.swift */; };
+		88A5536C2AB8394900B32F46 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 88A5536B2AB8394900B32F46 /* ComposableArchitecture */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88A5536C2AB8394900B32F46 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = FirebaseTODOAppByTCA;
+			packageProductDependencies = (
+				88A5536B2AB8394900B32F46 /* ComposableArchitecture */,
+			);
 			productName = FirebaseTODOAppByTCA;
 			productReference = 88A5533D2AB832F200B32F46 /* FirebaseTODOAppByTCA.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 88A553342AB832F200B32F46;
+			packageReferences = (
+				88A5536A2AB8394900B32F46 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 88A5533E2AB832F200B32F46 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -594,6 +602,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		88A5536A2AB8394900B32F46 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		88A5536B2AB8394900B32F46 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88A5536A2AB8394900B32F46 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 88A553352AB832F200B32F46 /* Project object */;
 }
