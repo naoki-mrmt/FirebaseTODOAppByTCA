@@ -1,29 +1,29 @@
 # FirebaseTODOAppByTCA
+[English](./README.md) / 日本語
+
 [![Release](https://img.shields.io/github/v/release/naoki-mrmt/FirebaseTODOAppByTCA)](https://github.com/naoki-mrmt/FirebaseTODOAppByTCA/releases/latest)
 [![Platform](https://img.shields.io/badge/platform-iOS-lightgrey)](https://github.com/naoki-mrmt/FirebaseTODOAppByTCA)
 
-English / [日本語](./README-ja.md)
+## 目次
+- [開発](#開発)
 
-## Table of Contents
-- [Development](#Development)
+## 開発
 
-## Development
-
-### Environmental Information
+### 環境情報
 - Xcode 15.0 Release Candidate
 - macOS Ventura 13.5+
 
-### Setup
-1. Clone the project
+### セットアップ
+1. プロジェクトのクローン
     ```shell
     git clone https://github.com/naoki-mrmt/FirebaseTODOAppByTCA.git
     cd FirebaseTODOAppByTCA
     ```
-2. Enable faster builds for Swift projects (Optional)
+2. Swiftプロジェクトのビルドを高速化 (任意)
     ```shell
     defaults write com.apple.dt.XCBuild EnableSwiftBuildSystemIntegration 1
     ```
-3. Open the project
+3. プロジェクトを開く
     ```shell
     open FirebaseTODOAppByTCA.xcodeproj
     ```
